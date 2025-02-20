@@ -27,3 +27,16 @@ Steps To SettUp GIT
 11.git pull origin main --rebase
 
 11.git push -u origin main
+
+
+
+
+
+////////////////////////////To add new changes you made in your code ( Stage Changes) ////////////////////////////
+
+
+1. git add .
+2. git commit -m "Your commit message"
+3. git push origin main
+
+
