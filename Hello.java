@@ -20,13 +20,13 @@ public class Hello {
  // First additional class
 class Students {
    public void displayFirstMessage() {
-       System.out.println("Hello from FirstClass!");
+       System.out.println("Hello from Student Class!");
    }
 }
 
 // Second additional class
 class Developers {
    public void displaySecondMessage() {
-       System.out.println("Hello from SecondClass!");
+       System.out.println("Hello from Developer Class!");
    }
 }
