@@ -7,25 +7,25 @@ public class Hello {
     public static void main(String []args) {
        System.out.println("Hello, Alasow!"); // prints Hello, World!
        // Creating objects of other classes
-       FirstClass first = new FirstClass();
-       SecondClass second = new SecondClass();
+       Students std = new Students();
+       Developers dw = new Developers();
 
        // Calling methods from both classes
-       first.displayFirstMessage();
-       second.displaySecondMessage();
+       std.displayFirstMessage();
+       dw.displaySecondMessage();
     }
     
  }
 
  // First additional class
-class FirstClass {
+class Students {
    public void displayFirstMessage() {
        System.out.println("Hello from FirstClass!");
    }
 }
 
 // Second additional class
-class SecondClass {
+class Developers {
    public void displaySecondMessage() {
        System.out.println("Hello from SecondClass!");
    }
